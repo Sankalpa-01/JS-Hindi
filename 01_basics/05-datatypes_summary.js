@@ -46,7 +46,7 @@ let myYoutubeName = "No youtube channel"
 let anotherName = myYoutubeName
 anotherName = "chaiaurcode"
 
-console.log(anothername);
+console.log(anotherName);
 
 let userOne = {
     email: "User@google .com",
