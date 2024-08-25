@@ -33,3 +33,28 @@ const myFunction = function(){
 }
 
 console.log(typeof bigNumber);
+
+
+
+
+//***************************************************************************************************************
+
+//Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutubeName = "No youtube channel"
+
+let anotherName = myYoutubeName
+anotherName = "chaiaurcode"
+
+console.log(anothername);
+
+let userOne = {
+    email: "User@google .com",
+    upi: "user@ybl",
+}
+
+let userTwo = userOne
+userTwo.email = "sankalpa@google.com"
+
+console.log(user);
+
