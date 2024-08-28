@@ -18,6 +18,44 @@ if(true){
     console.log("INNER: ",a);
 }
 
-console.log(a);
+//console.log(a);
 //console.log(b);//This will show error and will not be printed
 
+function one(){
+    const username = "hitesh"
+
+    function two()
+    {
+        const website = "youtube"
+        console.log(username);       
+    }
+    //console.log(website); => will show an error
+    
+    two()
+}
+
+//one()
+
+if(true){
+    const username = "hitesh"
+    if(username === "hitesh")
+    {
+        const website = "youtube"
+        console.log(username + website);
+    }
+    //console.log(website);//FIRST ERROR
+}
+//console.log(username); => SECOND ERROR
+
+// ******************************************INTERESTING***************************************
+
+function addone(value){
+    return value + 1
+}
+addone(5)
+
+//HOISTING
+const addtwo = function(num){
+    return num + 2
+}
+addtwo(5)
