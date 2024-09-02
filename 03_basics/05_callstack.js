@@ -1,0 +1,2 @@
+//Global EC => GLOBAL EXECUTION CONTEXT
+
