@@ -1,4 +1,4 @@
-//                                                            WHILE LOOP
+//                                                    WHILE LOOP
 
 // let i = 0;
 // while (i<=10) {
@@ -15,7 +15,7 @@
 //     arr++
 // }
 
-//                                                           DO-WHILE LOOP
+//                                                   DO-WHILE LOOP
 let score = 11
 do{
     console.log(`Score is ${score}`);
